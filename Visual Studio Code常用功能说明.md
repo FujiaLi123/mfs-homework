@@ -15,7 +15,7 @@ Visual Studio Code常用功能说明
 ### 卸载
 1. 根据上述中安装中的前三步找到要卸载的插件
 2. 点击‘Uninstall’
-### 在VSCode中使用Git
+## 在VSCode中使用Git
 1. 新建一个文件
 2. 编辑所需的内容
 3. 将其存为后缀为.md的文件即可。
