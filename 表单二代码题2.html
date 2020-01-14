@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>表单二代码题1.</title>
+<body>
+    <form action="/getInfo" method="POST" >
+        <div>
+        用户名：<input type="text" name="username" />
+        </div>
+        <div>
+        密码：&nbsp;&nbsp;&nbsp;<input type="password" name="password"  />
+        </div>
+        <div>
+        email:<input type="email" name="email" value="2603508246@qq.com"/>
+        </div>
+        <div>
+        number：<input type="number" name="number" min="0" max="100" step="2" value="0" />
+        </div>
+        <div>
+        所在城市：<select name="city" value="1">
+                    <option value="a" >北京</option>
+                    <option value="b">上海</option>
+                    <option value="c">广州</option>
+                    <option value="d">深圳</option>
+                </select>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="提交按钮" />
+            <input type="reset" name="reset" value="重置按钮" />
+        </div>
+    </form>
+</body>
+</head>
